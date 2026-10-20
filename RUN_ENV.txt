@@ -1,0 +1,6 @@
+to create env base on "environment.yml" , go anaconda prompt then write "conda env create -f environment.yml" , you must be in file root , like if you download "environment.yml" in Documents , the prompt must be in Documents.
+
+
+after download the env , you can activate it by "conda activate saudi_dress_code_env".
+
+to run jupyter , write "jupyter lab" in env it self
