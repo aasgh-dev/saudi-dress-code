@@ -1,0 +1,47 @@
+{
+  "best_epoch": 4,
+  "n_val": 156,
+  "per_component": {
+    "thobe": {
+      "tp": 142,
+      "fp": 2,
+      "fn": 0,
+      "tn": 12,
+      "accuracy": 0.987,
+      "precision": 0.986,
+      "recall": 1.0,
+      "f1": 0.993
+    },
+    "ghutra": {
+      "tp": 101,
+      "fp": 1,
+      "fn": 0,
+      "tn": 54,
+      "accuracy": 0.994,
+      "precision": 0.99,
+      "recall": 1.0,
+      "f1": 0.995
+    },
+    "igal": {
+      "tp": 99,
+      "fp": 3,
+      "fn": 0,
+      "tn": 54,
+      "accuracy": 0.981,
+      "precision": 0.971,
+      "recall": 1.0,
+      "f1": 0.985
+    }
+  },
+  "exact_match_by_true_label": {
+    "000": "12/14",
+    "100": "40/41",
+    "110": "0/2",
+    "111": "99/99"
+  },
+  "compliance": {
+    "accuracy": 0.981,
+    "non_compliant_wrongly_accepted": "3/57",
+    "compliant_wrongly_rejected": "0/99"
+  }
+}
